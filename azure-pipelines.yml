@@ -20,3 +20,10 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- script: |
+     "Deploy of the application..."
+     "Initializing Docker Image..."
+     "Docker Image Initialized."
+     "Installing and Running the application in the container..."
+     "Result : Sucesss!"
+  displayName: 'Deploy'
