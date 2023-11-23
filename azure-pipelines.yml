@@ -21,9 +21,9 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 - script: |
-     "Deploy of the application..."
-     "Initializing Docker Image..."
-     "Docker Image Initialized."
-     "Installing and Running the application in the container..."
-     "Result : Sucesss!"
+     echo "Deploy of the application..."
+     echo "Initializing Docker Image..."
+     echo "Docker Image Initialized."
+     echo "Installing and Running the application in the container..."
+     echo "Result : Sucesss!"
   displayName: 'Deploy'
